@@ -9,7 +9,7 @@
   },
   "routes": [
     {
-      "pattern": "DOMAIN_PLACEHOLDER",
+      "pattern": "blog.upeet.eu.org",
       "custom_domain": true,
     },
   ],
