@@ -16,14 +16,14 @@
   "d1_databases": [
     {
       "binding": "DB",
-      "database_id": "D1_DATABASE_ID",
+      "database_id": "884eb225-d855-4414-b0f0-cfe8d01fea99",
       "migrations_dir": "migrations",
       "remote": true,
     },
   ],
   "r2_buckets": [
     {
-      "bucket_name": "bucket-name-placeholder",
+      "bucket_name": "flare-stack-blog-r2",
       "binding": "R2",
       "remote": true,
     },
@@ -31,7 +31,7 @@
   "kv_namespaces": [
     {
       "binding": "KV",
-      "id": "KV_NAMESPACE_ID",
+      "id": "843c0b68f12344b79af870244f00c7a2",
       "remote": true,
     },
   ],
