@@ -11,25 +11,28 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    /* 纸黄色 (Paper/Beige) - #fdf6e3
+       HSL转换: Hue 42, Saturation 87%, Lightness 94%
+       Tailwind HSL格式: 42 87% 94% */
+    --background: 42 87% 94%;
     --foreground: 240 10% 3.9%;
 
-    --muted: 240 4.8% 95.9%;
+    --muted: 42 40% 90%;
     --muted-foreground: 240 3.8% 46.1%;
 
-    --popover: 0 0% 100%;
+    --popover: 42 87% 94%;
     --popover-foreground: 240 10% 3.9%;
 
-    --border: 240 5.9% 90%;
-    --input: 240 5.9% 90%;
+    --border: 42 30% 85%;
+    --input: 42 30% 85%;
 
     --primary: 240 10% 3.9%;
     --primary-foreground: 0 0% 98%;
 
-    --secondary: 240 4.8% 95.9%;
+    --secondary: 42 40% 90%;
     --secondary-foreground: 240 5.9% 10%;
 
-    --accent: 240 4.8% 95.9%;
+    --accent: 42 40% 90%;
     --accent-foreground: 240 5.9% 10%;
 
     --ring: 240 10% 3.9%;
