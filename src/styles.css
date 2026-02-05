@@ -103,8 +103,8 @@ mark {
   --tw-transition-duration: 0.3s;
 
   /* Awwwards Style Font Families */
-  --font-serif: "Noto Serif SC Variable", serif;
-  --font-sans: "Noto Sans SC Variable", system-ui, sans-serif;
+  --font-serif: "Microsoft YaHei", "Noto Serif SC Variable", serif;
+  --font-sans: "Microsoft YaHei", "Noto Sans SC Variable", system-ui, sans-serif;
   --font-mono: "JetBrains Mono Variable", ui-monospace, monospace;
 
   /* Semantic Colors mapping to CSS variables */
