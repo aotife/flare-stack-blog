@@ -11,31 +11,31 @@
 
 @layer base {
   :root {
-    /* 纸黄色 (Paper/Beige) - #fdf6e3
-       HSL转换: Hue 42, Saturation 87%, Lightness 94%
-       Tailwind HSL格式: 42 87% 94% */
-    --background: 42 87% 94%;
-    --foreground: 240 10% 3.9%;
+    /* 优化后的纸黄色 (Solarized Light 启发)
+       背景: #fdf6e3 (44 87% 94%) -> 调整为更柔和的 45 60% 96%
+       前景色: 调整为深褐/深灰 (#586e75 -> 194 9% 40% 或更深) */
+    --background: 45 60% 96%;
+    --foreground: 194 15% 25%;
 
-    --muted: 42 40% 90%;
-    --muted-foreground: 240 3.8% 46.1%;
+    --muted: 45 40% 90%;
+    --muted-foreground: 194 10% 45%;
 
-    --popover: 42 87% 94%;
-    --popover-foreground: 240 10% 3.9%;
+    --popover: 45 60% 96%;
+    --popover-foreground: 194 15% 25%;
 
-    --border: 42 30% 85%;
-    --input: 42 30% 85%;
+    --border: 45 30% 88%;
+    --input: 45 30% 88%;
 
-    --primary: 240 10% 3.9%;
-    --primary-foreground: 0 0% 98%;
+    --primary: 194 15% 25%;
+    --primary-foreground: 45 60% 98%;
 
-    --secondary: 42 40% 90%;
-    --secondary-foreground: 240 5.9% 10%;
+    --secondary: 45 40% 90%;
+    --secondary-foreground: 194 15% 25%;
 
-    --accent: 42 40% 90%;
-    --accent-foreground: 240 5.9% 10%;
+    --accent: 45 40% 90%;
+    --accent-foreground: 194 15% 25%;
 
-    --ring: 240 10% 3.9%;
+    --ring: 194 15% 25%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
@@ -139,11 +139,11 @@ mark {
 
 @layer base {
   body {
-    @apply bg-background text-foreground overflow-x-hidden font-sans antialiased;
+    @apply bg-background text-foreground overflow-x-hidden font-sans antialiased text-[15px] md:text-[16px];
     transition:
       background-color 0.5s ease-in-out,
       color 0.5s ease-in-out;
-    line-height: 1.6;
+    line-height: 1.7;
   }
 
   ::selection {
